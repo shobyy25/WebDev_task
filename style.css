@@ -1,0 +1,218 @@
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: "Segoe UI";
+    color: white;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.horizontal-line {
+    border: none;
+    top: -2px;
+    border-top: 3px solid white;
+}
+
+.line-spacing {
+    line-height: 0.5;
+}
+
+.background-element {
+    position: relative;
+    padding: 20px;
+}
+
+.background-element::before {
+    content: "";
+    position: absolute;
+    top: -200px;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    background-color: #656CEC;
+    border-radius: 50px 50px 50px 50px;
+    z-index: -1;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+
+.flex-item {
+    flex: 1;
+    height: 240px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+
+
+}
+
+#flex-item-1 {
+
+    flex-grow: 1;
+    align-items: flex-end;
+    text-align: center;
+}
+
+#flex-item-2 {
+    flex-grow: 1;
+    align-items: flex-end;
+    text-align: center;
+}
+
+#flex-item-3 {
+    flex-grow: 1;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: #D2D4F2;
+
+}
+
+.flex-item2 {
+    flex: 1;
+    height: 35px;
+    position: relative;
+    top: 7px;
+    font-size: 25px;
+    font-family: "Inter";
+    padding: 10px;
+    margin: 3px;
+    align-items: center;
+}
+
+#flex-item-2-1 {
+    flex-grow: 1;
+}
+
+#flex-item-2-2 {
+    flex-grow: 1;
+    position: relative;
+    top: -1px;
+}
+
+#flex-item-2-3 {
+    flex-grow: 25;
+}
+
+#flex-item-2-4 {
+    flex-grow: 10;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.circle::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -35px;
+    width: 50px;
+    height: 50px;
+    background-color: #BABEFF;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+
+
+.big-circle {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.big-circle::before {
+    content: "";
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    left: 0;
+    width: 160px;
+    height: 160px;
+    background-color: #BABEFF;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.big-circle2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.big-circle2::before {
+    content: "";
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    top: -15px;
+    left: 0;
+    width: 125px;
+    height: 125px;
+    background-color: #BABEFF;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.small-circle {
+    background-color: #babeff;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+
+}
+
+.small-circle2 {
+    background-color: #babeff;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: -18px;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+
+}
+.rank1 {
+    position: relative;
+    align-items: center;
+    font-size: 20px;
+    color: white
+}
+
+.rounded-rectangle {
+    display: inline-block;
+    background-color: #babeff;
+    position: relative;
+    height: 30px;
+    width: 65%;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.rounded-rectangle2 {
+    display: inline-block;
+    background-color: #babeff;
+    position: relative;
+    top: -22px;
+    height: 25px;
+    width: 50%;
+    border-radius: 20px;
+    color: white;
+    font-size: 19px;
+}
